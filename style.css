@@ -3,6 +3,12 @@ h1 {
 	color: rgb(231, 6, 6);
 }
 
+.syntax {
+	background-color: rgb(34, 236, 16);
+	font-family: 'Times New Roman', Times, serif;
+	color: rgb(0, 0, 0);
+}
+
 h2, h3, h4, h5, h6{
 	color: rgb(82, 174, 204);
 }
