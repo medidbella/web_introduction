@@ -1,5 +1,25 @@
 h1 {
+	font-family: 'Courier New', Courier, monospace;
 	color: rgb(231, 6, 6);
+}
+
+h2, h3, h4, h5, h6{
+	color: rgb(82, 174, 204);
+}
+
+p, pre{
+	font-family: 'Courier New', Courier, monospace;
+	color: rgb(34, 236, 16);
+}
+
+li{
+	font-family: 'Courier New', Courier, monospace;
+}
+
+body
+{
+	text-align: left;
+	background-color: black;
 }
 
 em {
@@ -12,8 +32,4 @@ a{
 
 li {
 	color: blueviolet;
-}
-
-body {
-    background-color: lightblue;
 }
