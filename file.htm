@@ -3,11 +3,11 @@
 	<!--(type ="submit" )++for text type==> required ++ minlenght maxleght ++ pattern=".*"-->
 	<!--for number type && time && date==>required ++ min ++ max ++ type range -->
 	<!--email and number types has there own dafaul input validation requirement -->
-	<link rel="stylesheet" href="style.css">
 	<head>
+		<link rel="stylesheet" href="style.css">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>learning progresse</title>
+		<title>web introduction</title>
 	</head>
 	<body>
 		<h1>introduction</h1>
@@ -17,30 +17,29 @@
 	<article>
 		<h1>html elements</h1>
 			<p>
-				in my jurney i learned alot of elements that begins <br>
+				while reading html files you will encounter allot of elements that begins <br>
 				with an opening tag "&lt;&gt;" and a closing tag "&lt;/&gt;"
 			</p>
 		<ul>
 			<li><strong>titles element</strong></li>
 				<p>
 					title element can be used once in your file to give your page a 
-					name like the one <br>obove that says "learnin progresse" 
+					name like the one <br>obove that says "web introduction" 
 					<strong>the syntax to use that element :</strong><em>"&lt;title
-					&gt; &lt;/title&gt;" .</em>
+					&gt; your title &lt;/title&gt;" .</em>
 				</p>
 			<li><strong>paragraphs</strong></li>
 				<p>
 					paragraph element are used to insert text to your page and this 
 					current text is written <br>using this element
 				<strong>.the syntax to use that element :</strong>
-				<em>"&lt;p&gt; &lt;/p&gt;" .</em>
+				<em>"&lt;p&gt; your paragraph &lt;/p&gt;" .</em>
 				</p</p>
 			<li><strong>headings</strong></li>
 				<p>as the name says this element is used to add headings to your
 					web page there are up to <br>
-					6 hedings as the number increment the size of the heding decrement
-					.<strong><br>
-					the syntax to use that element :</strong><em>"&lt;h1..6&gt; &lt;/h1..6
+					6 hedings as the number increment the size of the heding decrement.<br>
+					<strong>the syntax to use that element :</strong><em>"&lt;h1..6&gt; &lt;/h1..6
 					&gt;." </em>
 				</p>
 			<li><strong>unordered lists</strong></li>
@@ -48,16 +47,24 @@
 					unordered lists are used to create bulleted lists such as the one 
 					that i used in this page to type the<br>
 					elements (paragraphs headings ...).<br><strong>the syntax to use that element :
-					</strong><em>"&lt;ul&gt; &lt;li&gt; &lt;li&gt;... &lt;ul&gt;". </em>
+					</strong><em>"&lt;ul&gt; &lt;li&gt; &lt;li&gt;... &lt;ul&gt;". </em><br>
+					inside &lt;ul&gt; element (unordered list) you can add your &lt;li&gt; elements
+					here is an examle:<br><br>
+					&lt;ul&gt;<br>
+						&lt;li&gt; part 1 &lt;/li&gt;<br>
+						&lt;li&gt; part 2 &lt;/li&gt;<br>
+					&lt;/ul&gt;<br><br>
+					this will make a bulleted list of two parts (part 1 and part 2).
+
 				</p></p>
 			<li><strong>ordered lists</strong></li>
 				<p>
-					ordered lists are the oposite of unordered lists inted of using a point 
-					to mark the nodes of the list<br>
-					it uses number in assending order.<br><strong>the syntax to use that element :
+					ordered lists are the same as unordered lists, exesept that instead of using points<br>
+					to mark the nodes of the list, it uses number in assending order.<br>
+					<strong>the syntax to use that element :
 					</strong><em>"&lt;ol&gt; &lt;li&gt; &lt;li&gt;... &lt;ol&gt;". </em>
 				</p>
-			</ul>
+		</ul>
 		</article>
 	
 		<article>
@@ -65,12 +72,12 @@
 				<ol>
 					<li><h2>images</h2></li>
 					<p>
-						to add an image to your web site you should use the syntax that is shown in 
+						to add an image to your web page you should use the syntax that is shown in 
 						this image 
 					</p>
-				<img src="media/thiiis.png"width="500" height="100" alt="image syntax"/>
+				<img src="media/html-image-tag.png"width="350" height="150" alt="image syntax"/>
 					<p>
-						as you see the image element is defrent from the others it is called a <em>self 
+						as you see the image element is deffrent from the others it is called a <em>self 
 						closing tag</em> and <br>
 						inside this element we should add an <em>atribute </em>that is called <strong>"src"
 						</strong> were we can write the source<br> of our
@@ -86,8 +93,8 @@
 						<strong>&lt;video src = (source of video) controls &gt; "txt alt" &lt;/video&gt;</strong><br>
 						the <strong>controls</strong> is used to tell the browser to add basic controls to
 						your video such as <em>play/pause</em> button<br>
-						sound control your can also modify the height ans leght of your video the same way we 
-						do to images <br> if you need to put an alternative text put between the opening and closing tags. <br>
+						and sound control, your can also modify the height and lenght of your video the same way we 
+						do to images <br> you can also put the alternative text between the opening and closing tags. <br>
 						here is an example :
 					</p>
 				<video src="media/Colin's Bear Animation.mp4" controls>
@@ -188,14 +195,14 @@
 		</p>
 		<h2>set up</h2>
 		<p>
-			to set up and start using CSS you should first creat a css file and link with your html file using the link element and set the <em>"href"</em>
-			attribute to <br> the your css file path also you should add a <em>rel</em> attribute stands for (realtionship) and set it to "stylesheet"
+			to set up and start using CSS you should first creat a css file and link it with your html file using the link element <br>
+			and set the <em>"href"</em> attribute to the path of your css file also you should add a <em>rel</em> attribute stands for (realtionship) and set it to "stylesheet"
 		</p>
 	<nav>
 		<h3>resources:</h3>
 			<ul>
 				<li><a href="https://www.codecademy.com/enrolled/courses/learn-html">HTML course</a></li>
-				<li><a href="https://roadmap.sh/r?id=6572451e5145316d25d1e2dc"> BEST WEB_DEVOLEPMENT roadmap</a></li>
+				<li><a href="https://roadmap.sh/r?id=6572451e5145316d25d1e2dc">WEB_DEVOLEPMENT roadmap</a></li>
 			</ul>
 	</nav>
 	</body>
