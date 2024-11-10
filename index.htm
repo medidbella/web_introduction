@@ -12,9 +12,15 @@
 	<body>
 		<h1>introduction</h1>
 			<p>
-				this web page is meant to be an introduction to the basics of web devolepment
+				this web page is meant to be an introduction to the basics of frontend web devolepment for <br>
+				complete beginers this will includes: HTML, CSS and JavaScript.
 			</p>
 	<article>
+		<h1>HTML definition</h1>
+			<p>
+				HTML stands for Hypertext Markup Language, and it is consider the back bone of a web page<br>
+				because it defines the content and structure of a web page,
+			</p>
 		<h1>html elements</h1>
 			<p>
 				while reading html files you will encounter allot of elements that begins <br>
@@ -159,7 +165,7 @@
 				<p>
 					the syntax i used to visualize this text holder is this :<br><br>
 					<span class="syntax">
-						"&lt;input&gt;"<br>
+						"&lt;input&gt;"<br><br>
 					</span>
 						inside this element we can add inputs labels ...
 				</p>
@@ -182,7 +188,7 @@
 					</p>
 				<li><strong>name</strong></li>
 					<p>
-						we can consider that this atribute declares a variable in witch we will store the <br>
+						we can consider that this atribute declares a variable in wich we will store the <br>
 						text we got form the user and just like the previos atribute we can't really benifit <br> 
 						from this atribute while using html only it will usfell after learning JavaScript
 					</p>
@@ -214,38 +220,166 @@
 				</p>
 		</ul>
 	</article>
-<h1>using CSS</h1>
-		<p>
-			<strong>CSS </strong> stands for <strong>"Cascading Style Sheets"</strong>it  is the language used to style your web page by 
-			adding colors change writing syles <br> and label themes ext...
-		</p>
-		<h2>set up</h2>
+
+	<article>
+	<h1>using CSS</h1>
+		<h2>definition</h2>
 			<p>
-				to set up and start using CSS, you should first creat a css file and link it with your html file using the link element <br>
-				and set the <em>"href"</em> attribute to the path of your css file thrn add a <em>rel</em> attribute (realtionship) and set it to "stylesheet"
+				when you write pure html code the browser uses it's default boring styling, and here is where CSS is usfull.<br>
+				<strong>CSS </strong> stands for <strong>"Cascading Style Sheets"</strong> it is the language used to style your web page <br>
+				it has all the defrent features like adding colors, change writing syles, controling text position and alot more.
 			</p>
+		<h2>linking CSS with html</h2>
+			<p>
+				to apply CSS to your html file, the most used way is to creat a css file and link it with your html file using the link element <br>
+				and set the <em>"href"</em> attribute to the path of your css file then add a <em>rel</em> attribute (realtionship) and set it to "stylesheet"<br>
+				make sure the new link element is located within a head element<br>
+				<strong>here is the syntax :</strong><br><br>
+				<span class="syntax">
+					&lt;link rel="stylesheet" href="style.css"&gt;<br><br>
+				</span>
+				or alternatively for quick styling without having to creat a new file you can use the html style element here is the syntax:<br><br>
+				<span class="syntax">
+					&lt;style&gt;<br>
+					&nbsp;&nbsp;h1{<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color: blue;<br>
+					&nbsp;&nbsp;}<br> 
+					&lt;/style&gt;<br><br>
+				</span>
+				the syntax inside the style element is the same syntax used inside a CSS file wich is explained next.
+			</p>
+
 		<h2>basic CSS syntax</h2>
 		<p>
-			lets say we want to style the HTML paragraph element here is the syntax:<br><br>
+			lets say we want to style one of the HTML elements. <strong>here is the syntax:</strong><br><br>
 			<span class="syntax">
 				selector {<br>
-					&nbsp;&nbsp;&nbsp;&nbsp;property=valeu<br>
-				}<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;property=valeu;<br>
+				}<br><br>
 			</span>
+			the <em>selector</em> is mainly used to chose the html element we want to apply the changes on it<br>
+			the <em>property</em> is used to specify the thing you want to chage (color, size, font ,etc...)<br>
+			and the <em>valeu</em> depends on the property, for example if the property is set to color <br>
+			the valeu should be a color (rgb(231, 6, 6) or just red) and if the property is a font-family <br>
+			the value should be the desired font name (Arial (sans-serif), Verdana) etc...<br>
 		</p>
+	
+		<h2>some css properties</h2>
 			<p>
-				the <em>selector</em> is used to chose the html element we want to apply the changes on it<br>
-				the <em>property</em> is used to specify the thing you want to chage (color, size, font ,etc...)<br>
-				and the <em>valeu</em> depends on the property, for example if the property is set to color <br>
-				the valeu should be a color (rgb(231, 6, 6) or just red) and if the property is a font-family <br>
-				the value should be the desired font name (Arial (sans-serif), Verdana) etc...<br>
+				in CSS there is a large collection of properties and each property can have defrent type of valeu <br>
+				depending on the property itself but we are only going to cover a minimal amount of them <br>
+				here is a full list : <a href="https://www.w3schools.com/cssref/index.php"> full list link </a> 
 			</p>
+		<ul>
+			<li>color</li>
+				<p>
+					this property is strait forward, it allows you to change the color of the specified selector.<br>
+					you can give it the color name directly like this: "color: red".<br>
+					you can also use the rgb foramation of the color you want like this : "color: rgb(100, 0, 204);"
+				</p>
+			<li>background</li>
+				<p>
+					there are several properties to manipulate the appearance of the element background:
+					<ol>
+						<li>background color</li>
+							<p>
+								if you want to change the background color of the selector you can do it like this: <br>
+								<span class="syntax">
+									selector {<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;background-color="red";<br>
+									}<br><br>
+								</span>
+							</p>
+						<li>background Transparency</li>
+							<p>
+								this property is only usfulle when the background-color is also used so that you can midify<br>
+								the Transparency of the background of an element using this syntax:<br><br>
+								<span class="syntax">
+									selector {<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;background-color="red";<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.5;";<br>
+									}<br><br>
+								</span>
+								the default opacity valeu is 1 so that means the examle abouve will reduce the Transparency of <br>
+								the red background by 50%.
+							</p>
+						<li>image as a background</li>
+							<p>
+								to show an image as the background of some element we can use the "background-image" property like this:<br>
+								<span class="syntax">
+									selector {<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;background-color="red";<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.5;";<br>
+									}<br><br>
+								</span>
+							</p>
+					</ol>
+				</p>	
+		</ul>
+
+		<h2>more CSS selector usages</h2>
+		<ul>
+			<li>multiple selectors</li>
+			<p>
+				the selector part of the CSS syntax can be used for more than just selecting one html element there are some additional features<br>
+				for example you can applly the same changes to a group of elements by setting the selector to all the elements like this:<br><br>
+				<span class="syntax">
+					h2, h3, h4 {<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;background-color: black;<br>
+					}<br><br>
+				</span>
+				this will set the background color of all the specified elements (h2, h3, h4) to black color. <br>
+				this syntax allows you to apply the same styling to multiple of elements without<br>
+				having to write each one individually.<br>
+			</p>
+			<li>using class as selector</li>
+			<p>
+				class is an html atribute that can be shared acros multiple elements here is how we can benifit from it in CSS :<br><br>
+				<span class="syntax">
+					.class_value{<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;font-family: 'Times New Roman', Times, serif;<br>
+					}<br><br>
+				</span>
+				this syntax abouve is used to make all the elements with an atribute class of value "class_value" follow the specified style changes <br>
+				in our case the changes will apply to every element no matter what type as long as its class atribute is set to the same value used
+				as the selector .<br>
+				you can also use it in that way:<br><br>
+				<span class="syntax">
+					p.class_val{<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;text-align: center;<br>
+					}<br><br>
+				</span>
+				the defrence here is that we specified both of the html element and class we want to target <br>
+				wich means only the &lt;p&gt; elements that have a valeu of "class_val" will be aligned to the center<br> 
+			</p>
+			<li>uinvesal selector</li>
+				<p>
+					sometimes you want to make some changes on all of you html elements without exepetions here is how:<br><br>
+					<span class="syntax">
+						*{<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;text-align: center;<br>
+						}<br><br>
+					</span>
+					when a '*' character is used as the selector, the styling will be applied to all of the elements.
+				</p>
+			<li>id as a selector</li>
+				<p>
+					the id is an html attribute the defrence between an id and a class is that each element can have a unique id<br>
+					wich means if we use as out CSS selector it will be applied to the element with that same id here is it's syntax:<br><br>
+					<span class="syntax">
+						#id-valeu{<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;color: red;<br>
+						}<br><br>
+					</span>
+				</p>
+		</ul>
+	</article>
 	<nav>
 		<h3>resources:</h3>
-			<ul>
-				<li><a href="https://www.codecademy.com/enrolled/courses/learn-html">HTML course</a></li>
-				<li><a href="https://roadmap.sh/r?id=6572451e5145316d25d1e2dc">WEB_DEVOLEPMENT roadmap</a></li>
-			</ul>
+		<ul>
+			<li><a href="https://www.codecademy.com/enrolled/courses/learn-html">HTML course</a></li>
+			<li><a href="https://roadmap.sh/r?id=6572451e5145316d25d1e2dc">WEB_DEVOLEPMENT roadmap</a></li>
+		</ul>
 	</nav>
-	</body>
+</body>
 </html>
