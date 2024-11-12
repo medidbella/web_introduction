@@ -4,10 +4,11 @@ h1 {
 }
 
 .syntax {
-	opacity: 0.5;
-	background-color: rgb(34, 236, 16);
-	font-family: 'Times New Roman', Times, serif;
-	color: rgb(0, 0, 0);
+		font-family: monospace;
+		font-size: 1em;
+		color: #d65433;  
+		background-color: #f8f9fa;
+		padding: 2px 4px;
 }
 
 h2, h3, h4, h5, h6{
