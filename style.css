@@ -11,7 +11,20 @@ body {
 
 em {color: blue;}
 
-#CSS{ padding-left: 20px; }
+#CSS { padding-left: 20px; }
+
+
+#intro {
+    background-color: rgb(0, 255, 128); /* Background color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 0% 0%; /* Simplified shorthand for padding */
+    display: flex; /* Enables Flexbox */
+    flex-direction: column; /* Stacks children vertically */
+    align-items: center; /* Centers children horizontally */
+    text-align: center; /* Centers inline text */
+    box-sizing: border-box; /* Includes padding in height/width calculations */
+    margin-bottom: 20px; /* Adds space below to prevent overlapping */
+}
 
 a:hover {
     font-size: large;
@@ -43,8 +56,6 @@ p {
 	color: rgb(255, 255, 255);
 	max-width: 700px;
 }
-
-#head { text-align: center;}
 
 li {
 	color: rgb(4, 250, 176);
