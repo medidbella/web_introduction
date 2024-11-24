@@ -8,20 +8,17 @@ body {
 	text-align: left;
 	background-color: black;
 }
-#mid{
-	text-align: center;
-}
-
-#intro { 
-	text-align: center;
-	margin: auto;
-	font-family: 'Courier New', Courier, monospace;
-	color: rgb(140, 218, 15);
-}
 
 em {color: blue;}
 
 #CSS{ padding-left: 20px; }
+
+a:hover {
+    font-size: large;
+    color: rgb(57, 189, 138);
+}
+
+label{color: aliceblue;}
 
 a {color: #f7b500;}
 

@@ -10,24 +10,24 @@
 		<title>web introduction</title>
 	</head>
 	<body>
-		<div>
 			<h1><strong>introduction</strong></h1>
 				<p>
 					this web page is meant to be an introduction to the basics of frontend web development for <br>
 					complete beginners this will include HTML, CSS, and JavaScript.
 				</p>
-		</div>
 		<h1><strong>Hypertext Markup Language (HTML)</strong></h1>
 	<article>
+		<div>
 		<h2>definition</h2>
 			<p>
 				HTML stands for Hypertext Markup Language, and it is consider the back bone of a web page
 				because it defines the content and structure of a web page,
 			</p>
-		<h2><strong>html elements</strong></h2>
+		</div>
+		<h2><strong>basic html elements</strong></h2>
 			<p>
-				while reading html files you will encounter allot of elements that begins 
-				with an opening tag "&lt;&gt;" and a closing tag "&lt;/&gt;"
+				while reading html files you will encounter a lot of elements that begins 
+				with an opening tag &lt;&gt; and a closing tag &lt;/&gt;
 			</p>
 		<ul>
 			<li><strong>titles element</strong></li>
@@ -36,33 +36,32 @@
 					name like the one obove that says "web introduction" 
 					<strong>the syntax to use that element :</strong>
 									<br><br>
-			<span class="syntax">
-							"&lt;title&gt; your title &lt;/title&gt;" .
-						</span>
-		<br><br>
-				
+					<span class="syntax">
+							&lt;title&gt; your title &lt;/title&gt;
+					</span>
+					<br><br>
 				</p>
 			<li><strong>paragraphs</strong></li>
 				<p>
 					paragraph element are used to insert text to your page and this 
 					current text is written using this element<strong>.the syntax to use that element </strong>:
 								<br><br>
-			<span class="syntax">
-						"&lt;p&gt; your paragraph &lt;/p&gt;" .
+					<span class="syntax">
+						&lt;p&gt; your paragraph &lt;/p&gt; 
 					</span>
-		<br><br>
-					
+					<br><br>		
 				</p>
 			<li><strong>headings</strong></li>
-				<p>as the name says this element is used to add headings to your
+				<p>
+					as the name says this element is used to add headings to your
 					web page there are up to 
 					6 hedings as the number increment the size of the heding decrement.
 					<strong>the syntax to use that element :</strong>
-									<br><br>
-			<span class="syntax">
-							"&lt;h1..6&gt; &lt;/h1..6 &gt;."
-						</span>
-		<br><br>
+					<br><br>
+					<span class="syntax">
+							&lt;h1..6&gt; &lt;/h1..6 &gt;
+					</span>
+					<br><br>
 				</p>
 				<li><strong>unordered lists</strong></li>
 				<p>
@@ -71,47 +70,43 @@
 					elements (paragraphs headings ...).
 					<strong>the syntax to use that element </strong>:
 									<br><br>
-			<span class="syntax">
-							"&lt;ul&gt; &lt;li&gt; &lt;li&gt;... &lt;ul&gt;". 
-						</span>
-		<br><br>
-					
+					<span class="syntax">
+							&lt;ul&gt; &lt;li&gt; &lt;li&gt;... &lt;ul&gt;
+					</span>
+					<br><br>
 					inside &lt;ul&gt; element (unordered list) you can add your &lt;li&gt; elements
-					here is an examle:
-									<br><br>
-			<span class="syntax">
+					here is an examle:<br><br>
+					<span class="syntax">
 							&lt;ul&gt;
 							&lt;li&gt; part 1 &lt;/li&gt;
 							&lt;li&gt; part 2 &lt;/li&gt;
 							&lt;/ul&gt;
-						</span>
-		<br><br>
-						
+					</span>
+					<br><br>			
 					this will make a bulleted list of two parts (part 1 and part 2).
 				</p></p>
 			<li><strong>ordered lists</strong></li>
 				<p>
-					ordered lists are the same as unordered lists, exesept that instead of using points
+					ordered lists are the same as unordered lists, except that instead of using points
 					to mark the nodes of the list, it uses number in assending order.
 					<strong>the syntax to use that element :</strong>
 									<br><br>
-			<span class="syntax">
-							"&lt;ol&gt; &lt;li&gt; &lt;li&gt;... &lt;ol&gt;".
+						<span class="syntax">
+							&lt;ol&gt; &lt;li&gt; &lt;li&gt;... &lt;ol&gt;
 						</span>
-		<br><br>
-					
+						<br><br>
 				</p>
-			<li> "strong" and "em" elements </li>
+			<li> <strong>"strong" and "em" elements</strong> </li>
 				<p>
 					the "strong" element is used to make the characters and font of a piece of text that 
 					is inclosed within this element darker and bigger here is an examle:
 					<strong> "word"</strong> this "word" is writen inside the strong element
 					<strong>here is the syntax used :</strong>
 								<br><br>
-			<span class="syntax">
+					<span class="syntax">
 						&lt;strong&gt; "the text you desire" &lt;/strong&gt;
 					</span>
-		<br><br>
+					<br><br>
 					on the other hand the "em" element is used the in same way (same syntax) but the result of using 
 					this element is defrent, it slightly emphasis the text here is an example : <em>hello</em> 
 
@@ -130,7 +125,7 @@
 							</p>
 								<img src="media/html-image-tag.png"width="350" height="150" alt="image syntax"/>
 							<p>
-							as you see the image element is deffrent from the others it is called a <em>self 
+							as you see the image element is different from the others it is called a <em>self 
 							closing tag</em> and 
 							inside this element we should add an <em>atribute </em>that is called <strong>"src"
 							</strong> were we can write the source of our
@@ -145,11 +140,10 @@
 						<p>
 							to add videos to your page you should use the folowing syntax:
 										<br><br>
-			<span class="syntax">
+							<span class="syntax">
 								<strong>&lt;video src = (source of video) controls &gt; "txt alt" &lt;/video&gt;</strong>
 							</span>
-		<br><br>
-							
+							<br><br>					
 							the <strong>controls</strong> is used to tell the browser to add basic controls to
 							your video such as <em>play/pause</em> button
 							and sound control, your can also modify the height and lenght of your video the same way we 
@@ -164,11 +158,10 @@
 						<p>
 							to add an audio to your page you should use the folowing syntax:
 										<br><br>
-			<span class="syntax">
+							<span class="syntax">
 								<strong>&lt;audio src = (source of audio) controls &gt; "txt alt" &lt;/audio&gt;</strong>
 							</span>
-		<br><br>
-							
+							<br><br>						
 							the <strong>controls</strong> is used to tell the browser to add basic controls to your audio
 							such as <em>play/pause</em> button
 							sound control if you need to put an alternative text put between the opening and closing tags. 
@@ -188,7 +181,7 @@
 			<li><h2>forms ?</h2></li>
 				<p>
 					inside the opening and closing tags of the form element we can build a form that contains <em>input 
-					elements</em> the use of this form element <strong>"&lt;form&gt;&lt;/form&gt;"</strong> isn't graphicly
+					elements</em> the use of this form element <strong>&lt;form&gt;&lt;/form&gt;</strong> isn't graphicly
 					necessary but it is a ogligatory in future since we will need the information passed by the user when we will 
 					learn about <strong><em>Java Script</em></strong> and <strong><em>CSS.</em></strong>
 				</p>
@@ -199,12 +192,11 @@
 			<input>
 				<p>
 					the syntax i used to visualize this text holder is this :
-								<br><br>
+					<br><br>
 			<span class="syntax">
-						"&lt;input&gt;"
+						&lt;input&gt;
 					</span>
-		<br><br>
-					
+					<br><br>				
 						inside this element we can add inputs labels ...
 				</p>
 			<li><h3>input attributes</h3></li>
@@ -249,15 +241,14 @@
 				an instruction or anything you desire here is an example: 
 				</p>
 				<label for="txt">write your name</label>
-				<input type ="text" id="txt">
+				<input type ="texte" id="txt">
 				<p>
 					the syntax i used in this case above i used this before the input element this syntax :
 									<br><br>
 			<span class="syntax">
-							"&lt;label&gt;'my text'&lt;/label&gt;"
+							&lt;label&gt;'my text'&lt;/label&gt;
 						</span>
-		<br><br>
-						
+				<br><br>				
 				</p>
 			<li><h4>for atribute</h4></li>
 				<p>
@@ -283,48 +274,45 @@
 				make sure the new link element is located within a head element
 				<strong>here is the syntax :</strong>
 							<br><br>
-			<span class="syntax">
+				<span class="syntax">
 					&lt;link rel="stylesheet" href="style.css"&gt;
 				</span>
-		<br><br>
-				
+				<br><br>
 				or alternatively for quick styling without having to creat a new file you can use the html style element here is the syntax:
 							<br><br>
-			<span class="syntax">
-					&lt;style&gt;
-					&nbsp;&nbsp;h1{
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color: blue;
-					&nbsp;&nbsp;} 
+				<span class="syntax">
+					&lt;style&gt;<br>
+					&nbsp;&nbsp;h1{<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color: blue;
+					<br>
+					&nbsp;&nbsp;}<br>
 					&lt;/style&gt;
 				</span>
-		<br><br>
-				
+				<br><br>
 				the syntax inside the style element is the same syntax used inside a CSS file wich is explained next.
 			</p>
-
 		<h2>basic CSS syntax</h2>
-		<p>
-			lets say we want to style one of the HTML elements. <strong>here is the syntax:</strong>
-						<br><br>
-			<span class="syntax">
-				selector {
-					&nbsp;&nbsp;&nbsp;&nbsp;property=valeu;
-				}
-			</span>
-		<br><br>
-			
-			the <em>selector</em> is mainly used to chose the html element we want to apply the changes on it
-			the <em>property</em> is used to specify the thing you want to chage (color, size, font ,etc...)
-			and the <em>valeu</em> depends on the property, for example if the property is set to color 
-			the valeu should be a color (rgb(231, 6, 6) or just red) and if the property is a font-family 
-			the value should be the desired font name (Arial (sans-serif), Verdana) etc...
-		</p>
+			<p>
+				lets say we want to style one of the HTML elements. <strong>here is the syntax:</strong>
+				<br><br>
+				<span class="syntax">
+					selector {<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;property=valeu;<br>
+					}
+				</span>
+				<br><br>
+				the <em>selector</em> is mainly used to chose the html element we want to apply the changes on it
+				the <em>property</em> is used to specify the thing you want to chage (color, size, font ,etc...)
+				and the <em>valeu</em> depends on the property, for example if the property is set to color 
+				the valeu should be a color (rgb(231, 6, 6) or just red) and if the property is a font-family 
+				the value should be the desired font name (Arial (sans-serif), Verdana) etc...
+			</p>
 	
 		<h2>some css properties</h2>
 			<p>
-				in CSS there is a large collection of properties and each property can have defrent type of valeu 
-				depending on the property itself but we are only going to cover a minimal amount of them 
-				here is a full list : <a href="https://www.w3schools.com/cssref/index.php"> full list link </a> 
+				there is a large collection of properties and each property can have defrent types of possible
+				valeu depending on the property itself but in this page we are only going to cover a minimal amount
+				<br>here is a full list : <a href="https://www.w3schools.com/cssref/index.php"> full list link </a> 
 			</p>
 		<ul>
 			<li>color</li>
@@ -334,34 +322,33 @@
 					you can also use the rgb foramation of the color you want like this : "color: rgb(100, 0, 204);"
 				</p>
 			<li>background</li>
-				<p>
-					there are several properties to manipulate the appearance of the element background:
+					<p>
+						there are several properties to manipulate the appearance of the background of an element
+					</p>
 					<ol>
 						<li>background color</li>
 							<p>
 								if you want to change the background color of the selector you can do it like this: 
-											<br><br>
-			<span class="syntax">
-									selector {
-										&nbsp;&nbsp;&nbsp;&nbsp;background-color="red";
+								<br><br>
+								<span class="syntax">
+									selector {<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;background-color="red";<br>
 									}
 								</span>
-		<br><br>
-								
+								<br><br>						
 							</p>
 						<li>background Transparency</li>
 							<p>
-								this property is only usfulle when the background-color is also used so that you can midify
+								this property is only usefull when the background-color is also used so that you can modify
 								the Transparency of the background of an element using this syntax:
 											<br><br>
-			<span class="syntax">
-									selector {
-										&nbsp;&nbsp;&nbsp;&nbsp;background-color="red";
-										&nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.5;";
+								<span class="syntax">
+									selector {<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;background-color="red";<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.5;";<br>
 									}
 								</span>
-		<br><br>
-								
+								<br><br>
 								the default opacity valeu is 1 so that means the examle abouve will reduce the Transparency of 
 								the red background by 50%.
 							</p>
@@ -369,17 +356,15 @@
 							<p>
 								to show an image as the background of some element we can use the "background-image" property like this:
 											<br><br>
-			<span class="syntax">
-									selector {
-										&nbsp;&nbsp;&nbsp;&nbsp;background-image: url("image path");
-										&nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.5;";
+								<span class="syntax">
+									selector {<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;background-image: url("image path");<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.5;";<br>
 									}
 								</span>
-		<br><br>
-								
+								<br><br>
 							</p>
-					</ol>
-				</p>	
+					</ol>	
 		</ul>
 
 		<h2>more CSS selector usages</h2>
@@ -388,14 +373,13 @@
 			<p>
 				the selector part of the CSS syntax can be used for more than just selecting one html element there are some additional features
 				for example you can applly the same changes to a group of elements by setting the selector to all the elements like this:
-							<br><br>
-			<span class="syntax">
-					h2, h3, h4 {
-						&nbsp;&nbsp;&nbsp;&nbsp;background-color: black;
+				<br><br>
+				<span class="syntax">
+					h2, h3, h4 {<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;background-color: black;<br>
 					}
 				</span>
-		<br><br>
-				
+				<br><br>
 				this will set the background color of all the specified elements (h2, h3, h4) to black color. 
 				this syntax allows you to apply the same styling to multiple of elements without
 				having to write each one individually.
@@ -403,61 +387,59 @@
 			<li>using class as selector</li>
 			<p>
 				class is an html atribute that can be shared acros multiple elements here is how we can benifit from it in CSS :
-							<br><br>
-			<span class="syntax">
-					.class_value{
-						&nbsp;&nbsp;&nbsp;&nbsp;font-family: 'Times New Roman', Times, serif;
+				<br><br>
+				<span class="syntax">
+					.class_value{<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;font-family: 'Times New Roman', Times, serif;<br>
 					}
 				</span>
-		<br><br>
-				
+				<br><br>	
 				this syntax abouve is used to make all the elements with an atribute class of value "class_value" follow the specified style changes 
 				in our case the changes will apply to every element no matter what type as long as its class atribute is set to the same value used
 				as the selector .
 				you can also use it in that way:
 							<br><br>
-			<span class="syntax">
-					p.class_val{
-						&nbsp;&nbsp;&nbsp;&nbsp;text-align: center;
+				<span class="syntax">
+					p.class_val{<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;text-align: center;<br>
 					}
 				</span>
-		<br><br>
-				
+				<br><br>
 				the defrence here is that we specified both of the html element and class we want to target 
 				wich means only the &lt;p&gt; elements that have a valeu of "class_val" will be aligned to the center 
 			</p>
-			<li>uinvesal selector</li>
+			<li>univesal selector</li>
 				<p>
-					sometimes you want to make some changes on all of you html elements without exepetions here is how:
-								<br><br>
-			<span class="syntax">
-						*{
-							&nbsp;&nbsp;&nbsp;&nbsp;text-align: center;
-						}
+					sometimes you want to make some changes on all of you html elements without excepetions here is how:
+					<br><br>
+					<span class="syntax">
+							*{<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;text-align: center;<br>
+							}
 					</span>
-		<br><br>
-					
+					<br><br>
 					when a '*' character is used as the selector, the styling will be applied to all of the elements.
 				</p>
 			<li>id as a selector</li>
 				<p>
 					the id is an html attribute the defrence between an id and a class is that each element can have a unique id
 					wich means if we use as out CSS selector it will be applied to the element with that same id here is it's syntax:
-								<br><br>
-			<span class="syntax">
-						#id-valeu{
-							&nbsp;&nbsp;&nbsp;&nbsp;color: red;
+					<br><br>
+					<span class="syntax">
+						#id-valeu{<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;color: red;<br>
 						}
 					</span>
-		<br><br>
-					
+					<br><br>
 				</p>
 		</ul>
 	</article>
 	<nav>
 		<h3>resources:</h3>
 		<ul>
-			<li><a href="https://roadmap.sh/r?id=6572451e5145316d25d1e2dc">WEB_DEVOLEPMENT roadmap</a></li>
+			<li> <a href="https://roadmap.sh/r?id=6572451e5145316d25d1e2dc">WEB_DEVOLEPMENT roadmap</a> </li>
+			<li> <a href="https://developer.mozilla.org/en-US/">MDN WEB DOCS</a> </li>
+			<li> <a href="https://css-tricks.com/">CSS TRICKS</a> </li>
 		</ul>
 	</nav>
 </body>
