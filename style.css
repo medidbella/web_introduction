@@ -5,25 +5,41 @@ h1 {
 }
 
 body {
-	text-align: left;
-	background-color: black;
+	background-color: rgb(0, 0, 0);
 }
 
 em {color: blue;}
 
 #CSS { padding-left: 20px; }
 
+p {
+	font-family: 'Courier New', Courier, monospace;
+	color: rgb(255, 255, 255);
+	max-width: 700px;
+}
+
+#first{
+	font-family: 'Courier New', Courier, monospace;
+	border-radius: 20px;
+	margin-bottom: 10px;
+	height: 200px;
+}
+
+#intro-text{
+	margin-top: 25px;
+    display: block;
+	font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 2%;
+}
 
 #intro {
-    background-color: rgb(0, 255, 128); /* Background color */
-    border-radius: 5px; /* Rounded corners */
-    padding: 0% 0%; /* Simplified shorthand for padding */
-    display: flex; /* Enables Flexbox */
-    flex-direction: column; /* Stacks children vertically */
-    align-items: center; /* Centers children horizontally */
-    text-align: center; /* Centers inline text */
-    box-sizing: border-box; /* Includes padding in height/width calculations */
-    margin-bottom: 20px; /* Adds space below to prevent overlapping */
+	font-size: large;
+    display: block;
+    text-align: center;
+	margin-top: 2%;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 a:hover {
@@ -51,11 +67,6 @@ h2, h3, h4, h5, h6 {
 	color: rgb(11, 181, 238);
 }
 
-p {
-	font-family: 'Courier New', Courier, monospace;
-	color: rgb(255, 255, 255);
-	max-width: 700px;
-}
 
 li {
 	color: rgb(4, 250, 176);
